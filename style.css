@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import url("https://use.typekit.net/rym7wtt.css");
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-weight: 400;
+  src: url(assets/fonts/helveticaneue-webfont.woff2) format(woff2),
+    url(assets/fonts/helveticaneue-webfont.woff) format(woff);
+}
+
 body {
   /* color: red; */
 
@@ -11,7 +22,24 @@ body {
 
   font-family: sans-serif;
 
+  /* font-family: Roboto; */
+
+  font-family: "pt-sans-pro", sans-serif;
+
+  font-weight: 400;
+  font-style: normal;
+
   /* font-size: 21px; */
 
   font-size: 1.125rem;
+
+  font-weight: 100;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "novecento-sans-condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
